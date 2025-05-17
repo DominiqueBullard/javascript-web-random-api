@@ -1,3 +1,3 @@
-import { fetchClowCard } from "./cards";
+import {fetchDog} from "./dogs.js";
 
-fetchClowCard();
+fetchDog();
