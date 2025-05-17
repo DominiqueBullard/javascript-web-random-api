@@ -22,3 +22,9 @@ try {
   console.log(err)
 }
 }
+
+document.addEventListener('DOMContentLoaded', () => {
+  const button = document.getElementById('getDogBtn');
+  button.addEventListener('click', fetchDog);
+  fetchDog();
+})
