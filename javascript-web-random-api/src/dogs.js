@@ -8,14 +8,14 @@ try {
   const response = await axios.get(apiUrl);
   const dogData = response.data;
   const dogContainer = document.getElementById('dogContainer');
+  
 
   if(dogData.message){
-    const dogImage = document.createElement('img');
+    const dogImage = document.getElementById('img');
 
     dogImage.src = dogData.message;
 
-    dogImage.alt = "Random Dog Card"
-
+    dogImage.alt = "Random Dog Card";
     dogContainer.appendChild(dogImage);
   }
 } catch (err){
