@@ -14,3 +14,13 @@ body {
     background-color: pink;
 }
 
+button {
+    background-color: antiquewhite;
+    border-radius: 5px;
+    color: rgb(126, 25, 84);  
+}
+
+img {
+    border-radius: 10px;
+    box-shadow: 10px 20px rgb(150, 41, 114);
+}
