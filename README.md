@@ -1,3 +1,5 @@
 # javascript-web-random-api
 <h1> Random Dog Pictures.</h1>
-<p> So I'm making a random dog picture generator because the original api i wanted to use doesn't work anymore, so I went with dogs. At first when i added "get new dog" button, it would add a new picture on the page and not swap to a different photo(I'm writing this after the fact so i forgot how did it, part of me feel it was changing the getElementId another part feels it's the html). I wanted to have a popup dialog for the breeds but how it looked I'm not a fan of it.  </p>
+<p> So I'm making a random dog picture generator because the original api i wanted to use doesn't work anymore, so I went with dogs. At first when i added "get new dog" button, it would add a new picture on the page and not swap to a different photo(I'm writing this after the fact so i forgot how did it, part of me feel it was changing the getElementId another part feels it's the html). I wanted to have a popup dialog for the breeds but how it looked I'm not a fan of it.</p>
+
+<p>Button:css scan</p>
