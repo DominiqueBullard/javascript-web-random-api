@@ -10,12 +10,23 @@
     <div id="app"></div>
     <h1 class="header"> Choose Your Pupper!!</h1>
     <p> This is your one stop for images of four legged canine friends!</p>
+
     <div class="container">
-    <img id="img" src="" alt="Random Dog"  />
+    <img id="img" src="" alt="Random Dog" />
     </div>
+
     <div class="container2">
     <button id="getDogBtn" class="button-33" role="button">Get New Dog</button>
+    <button id="showBreedBtn" class="button-33" role="button">Show Breed</button>
+
     </div>
+
+    
+    <dialog id="dialogBreed">
+    <p id="textBreed">Breed will appear here.</p>
+    <button onclick="document.getElementById('dialogBreed').close()">Close</button>
+  </dialog>
+
     <script type="module" src="src/main.js"></script>
   </body>
 </html>

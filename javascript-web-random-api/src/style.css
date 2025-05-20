@@ -34,6 +34,14 @@ img{
     padding: 25px;
 }
 
+dialog {
+     border: none;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+ 
+}
+
 
 .button-33 {
   background-color: #ed9ce8;
