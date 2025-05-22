@@ -9,11 +9,33 @@ h1 {
     display: flex;
     justify-content: center;
     align-items: flex-start;
+    border-radius: 40px;
     margin-top: 20px;
     background-color: #ed9ce8;
+    color: #570326;
+    text-shadow: #9d177568 -1px 5px;
+    font-size: 50px;
+    font-family: cursive; 
+}
+.p1{
+     display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    color: #570326;
+    text-shadow: #9d177535 -1px 5px;
+    font-size: 30px;
+    font-family: cursive; 
 }
 
-img{
+.wing1{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    margin-top: 20px;
+
+}
+
+#img{
      border-radius: 10px;
     box-shadow: 10px 20px rgb(150, 41, 114);
     width: 400;
@@ -38,7 +60,8 @@ dialog {
      border: none;
     border-radius: 8px;
     padding: 20px;
-    box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+    background-color: #ed9ce8;
+    box-shadow: 10px 15px rgba(147, 6, 140, 0.3);
  
 }
 
